@@ -1,0 +1,13 @@
+Definition:
+HTML provides three types of lists to display 
+informatio in an organized format:
+
+
+Ordered List (<ol>) - Numbered
+Unordered List (<ul>) - Bulleted
+Description List (<dl>) - Term/Description Pair
+
+   |Type|		 |Main Tags|	 |Item Tags|						 |Appearance|
+Ordered List		'<ol>'			'<li>'								1. 2. 3.
+Unordered List		'<ul>'			'<li>'								• • •
+Description List	'<dl>'			'<dt>'(term), '<dd>'(description)	Term + Explaination

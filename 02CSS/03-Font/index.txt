@@ -1,0 +1,19 @@
+DEFINITION:
+Font in CSS determine the style and apperance of text.
+You can change the typeface, size, weight (boldness), style (italic), 
+and spacing of letters.
+
+COMMON FONTS PROPERTIES:
+|PROPERTY|				|EXAMPLE|							|PURPOSE|
+'font-family'			'font-family: Arial, sans-serif;'	Set the font type
+'font-size'				'font-size: 18px;'					Controls text size
+'font-weight'			'font-weight: bold'					Makes text bold
+'font-style'			'font-style: italic;'				Italicizes text
+'line-height'			'line-height: 1.6;'					Space between line
+'letter-spacing'		'letter-spacing: 2px;'				Space between characters
+'text-transform'		'text-transform: uppercase;'		Capitalizes text
+
+
+
+RECOMMENDED SITE FOR FONT:
+1. fonts.google.com

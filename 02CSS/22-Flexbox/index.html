@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      .container {
+        width: 100vw;
+        height: 40vh;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+      }
+      .one {
+        width: 100px;
+        height: 100px;
+        background-color: aliceblue;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flexbox Demo</h1>
+    <div class="container">
+      <div class="one">Hi</div>
+      <div class="one">Hello</div>
+      <div class="one">Hey</div>
+      <div class="one">What's up</div>
+    </div>
+  </body>
+</html>

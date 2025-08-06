@@ -1,0 +1,18 @@
+DEFINITION:
+A border in CSS is a line tha wraps around an element's box 
+(like paragraphs, divs, images, etc.). You can customize its width, 
+style, color, and radius.
+
+
+BORDER PROPERTIES:
+|PROPERTIES|			|DESCRIPTION|								|EXAMPLE|
+'border'				Shorthan foe width, style, and color		'border: 2px solid red;'
+'border-width'			Sets thickness of the border				'border-width: 3px;'
+'border-style'			Style: 'solid', 'dashed', 'dotted', etc.	'border-style: dash;'
+'border-color'			Sets color of the border					'border-color: red;'
+'border-radius'			Round the corners of the border				'border-radius: 1px;'
+
+
+SHORTHAND SYNTAX:
+border: 3px dashed orange;
+/* width | style | color */

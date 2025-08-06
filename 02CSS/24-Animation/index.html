@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      .animation1 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        background-color: rgb(69, 141, 204);
+        border-radius: 50%;
+        margin: 100px auto;
+        animation-name: running;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes running {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translate(-100px);
+        }
+        100% {
+          transform: translate(0px);
+        }
+      }
+      .animation2 {
+        width: 200px;
+        height: 200px;
+        background-color: aquamarine;
+        border: 2px solid black;
+        margin: auto;
+        animation-name: rotate;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out;
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(45deg);
+        }
+        100% {
+          transform: rotate(90deg);
+        }
+      }
+      .animation3 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(208, 70, 1);
+        border: 2px solid black;
+        border-radius: 20%;
+        margin: 100px auto;
+        animation-name: scale;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+      }
+      @keyframes scale {
+        0% {
+          transform: scale(0);
+        }
+        50% {
+          transform: scale(1.3);
+        }
+        100% {
+          transform: rotate(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">CSS Animation</h1>
+    <div class="animation1"></div>
+    <div class="animation2"></div>
+    <div class="animation3"></div>
+  </body>
+</html>

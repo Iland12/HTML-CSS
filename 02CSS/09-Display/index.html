@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display</title>
+    <style>
+      .block {
+        display: block;
+        background-color: aqua;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+      .inline {
+        display: inline;
+        background-color: rgb(53, 207, 53);
+        padding: 5px;
+      }
+      .inline-block {
+        display: inline-block;
+        background-color: rgb(199, 70, 70);
+        padding: 5px;
+        width: 200px; /* It can be used width*/
+      }
+      .none {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Display Demo</h1>
+    <div class="block">Element having block</div>
+    <span class="inline">Element having inline </span>
+    <span class="inline">Another element having inline </span>
+    <div class="inline-block">Element1 having inline-block</div>
+    <div class="inline-block">Element1 having inline-block</div>
+    <div class="none">
+      This element is hidden by using <code>display: none;</code>
+    </div>
+  </body>
+</html>

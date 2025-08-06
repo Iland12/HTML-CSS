@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      footer {
+        background-color: rgb(14, 13, 13);
+      }
+      nav {
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      nav a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 3rem;
+        margin-right: 30px;
+      }
+      .container {
+        display: flex;
+      }
+      main {
+        flex: 4;
+        background-color: rgb(144, 167, 195);
+        padding: 20px;
+      }
+      aside {
+        flex: 1;
+        background-color: rgb(135, 154, 169);
+        padding: 20px;
+      }
+      footer {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1
+          style="
+            color: white;
+            font-size: 4rem;
+            text-shadow: 3px 3px 5px rgb(151, 145, 145);
+          "
+        >
+          Optivoxx
+        </h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <main>
+        <h1>Mission</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo libero
+          nesciunt nemo, architecto quidem sed sapiente, sequi aliquid quis
+          similique soluta accusamus porro ab, ducimus adipisci dolorem eligendi
+          officia numquam doloribus tempore tenetur ea harum? Ipsa deserunt
+          obcaecati facilis, laborum quidem necessitatibus vel soluta dolore
+          expedita est? Sint ut error impedit quas. Voluptas sint nisi
+          distinctio nemo recusandae atque labore eum, nesciunt delectus quasi
+          quis optio saepe voluptatem obcaecati fugiat animi expedita laudantium
+          alias eaque est sit maxime placeat quibusdam non. Voluptate
+          repudiandae quos esse architecto excepturi provident maxime ratione
+          explicabo officia natus fugit voluptas cum, alias suscipit impedit,
+          vel eum quis recusandae obcaecati accusantium sit velit facilis.
+          Reiciendis non commodi, ea labore impedit dolore unde corporis
+          accusantium vitae sed! Mollitia ducimus iusto autem doloremque dolor
+          incidunt nostrum! Ducimus, fugit nihil. Similique suscipit iure nisi
+          reprehenderit id praesentium impedit nam incidunt quidem. Itaque
+          dolorem ratione veritatis enim. Fugit officia amet eligendi,
+          cupiditate mollitia nostrum soluta. Similique sunt incidunt molestias
+          voluptate animi repellendus molestiae neque voluptatum autem sequi
+          itaque consequuntur accusantium nulla cupiditate harum magnam, id
+          ullam eos maxime odit maiores dolorem deleniti modi nihil. Eius
+          doloremque maxime vitae velit dolores eos animi eaque nemo magni
+          quidem. Nulla officia fugiat quae.
+        </p>
+        <br />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+          aspernatur quod dolore molestias. Quae illum minus cumque dolorem
+          soluta quaerat! Tenetur ullam nihil, alias, cum similique porro in
+          rerum, consequatur fugiat iusto deserunt accusamus. Numquam esse
+          repudiandae aliquam doloremque quo maiores distinctio, vero hic eaque
+          ipsam soluta culpa ducimus! Ab, asperiores explicabo? Veritatis ad
+          debitis libero laborum odio nihil alias nam, voluptas animi cum,
+          delectus omnis eum incidunt labore suscipit placeat, temporibus quis
+          iusto vel commodi dolorum fugiat tenetur harum! Nemo quas unde commodi
+          quo obcaecati atque laudantium saepe sunt debitis, optio ea ipsum
+          quaerat mollitia quisquam aperiam, temporibus nihil!
+        </p>
+      </main>
+      <aside>
+        <h1>Did you Know?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          accusamus quia quisquam rerum doloribus delectus ea qui magni, dolore
+          molestias.
+        </p>
+        <br />
+        <h1>Quick tip?</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam non,
+          aspernatur cumque cupiditate quia enim.
+        </p>
+      </aside>
+    </div>
+    <div class="container">
+      <main>
+        <h1>Mission</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo libero
+          nesciunt nemo, architecto quidem sed sapiente, sequi aliquid quis
+          similique soluta accusamus porro ab, ducimus adipisci dolorem eligendi
+          officia numquam doloribus tempore tenetur ea harum? Ipsa deserunt
+          obcaecati facilis, laborum quidem necessitatibus vel soluta dolore
+          expedita est? Sint ut error impedit quas. Voluptas sint nisi
+          distinctio nemo recusandae atque labore eum, nesciunt delectus quasi
+          quis optio saepe voluptatem obcaecati fugiat animi expedita laudantium
+          alias eaque est sit maxime placeat quibusdam non. Voluptate
+          repudiandae quos esse architecto excepturi provident maxime ratione
+          explicabo officia natus fugit voluptas cum, alias suscipit impedit,
+          vel eum quis recusandae obcaecati accusantium sit velit facilis.
+          Reiciendis non commodi, ea labore impedit dolore unde corporis
+          accusantium vitae sed! Mollitia ducimus iusto autem doloremque dolor
+          incidunt nostrum! Ducimus, fugit nihil. Similique suscipit iure nisi
+          reprehenderit id praesentium impedit nam incidunt quidem. Itaque
+          dolorem ratione veritatis enim. Fugit officia amet eligendi,
+          cupiditate mollitia nostrum soluta. Similique sunt incidunt molestias
+          voluptate animi repellendus molestiae neque voluptatum autem sequi
+          itaque consequuntur accusantium nulla cupiditate harum magnam, id
+          ullam eos maxime odit maiores dolorem deleniti modi nihil. Eius
+          doloremque maxime vitae velit dolores eos animi eaque nemo magni
+          quidem. Nulla officia fugiat quae.
+        </p>
+        <br />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+          aspernatur quod dolore molestias. Quae illum minus cumque dolorem
+          soluta quaerat! Tenetur ullam nihil, alias, cum similique porro in
+          rerum, consequatur fugiat iusto deserunt accusamus. Numquam esse
+          repudiandae aliquam doloremque quo maiores distinctio, vero hic eaque
+          ipsam soluta culpa ducimus! Ab, asperiores explicabo? Veritatis ad
+          debitis libero laborum odio nihil alias nam, voluptas animi cum,
+          delectus omnis eum incidunt labore suscipit placeat, temporibus quis
+          iusto vel commodi dolorum fugiat tenetur harum! Nemo quas unde commodi
+          quo obcaecati atque laudantium saepe sunt debitis, optio ea ipsum
+          quaerat mollitia quisquam aperiam, temporibus nihil!
+        </p>
+      </main>
+      <aside>
+        <h1>Did you Know?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          accusamus quia quisquam rerum doloribus delectus ea qui magni, dolore
+          molestias.
+        </p>
+        <br />
+        <h1>Quick tip?</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam non,
+          aspernatur cumque cupiditate quia enim.
+        </p>
+      </aside>
+    </div>
+    <div class="container">
+      <main>
+        <h1>Mission</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo libero
+          nesciunt nemo, architecto quidem sed sapiente, sequi aliquid quis
+          similique soluta accusamus porro ab, ducimus adipisci dolorem eligendi
+          officia numquam doloribus tempore tenetur ea harum? Ipsa deserunt
+          obcaecati facilis, laborum quidem necessitatibus vel soluta dolore
+          expedita est? Sint ut error impedit quas. Voluptas sint nisi
+          distinctio nemo recusandae atque labore eum, nesciunt delectus quasi
+          quis optio saepe voluptatem obcaecati fugiat animi expedita laudantium
+          alias eaque est sit maxime placeat quibusdam non. Voluptate
+          repudiandae quos esse architecto excepturi provident maxime ratione
+          explicabo officia natus fugit voluptas cum, alias suscipit impedit,
+          vel eum quis recusandae obcaecati accusantium sit velit facilis.
+          Reiciendis non commodi, ea labore impedit dolore unde corporis
+          accusantium vitae sed! Mollitia ducimus iusto autem doloremque dolor
+          incidunt nostrum! Ducimus, fugit nihil. Similique suscipit iure nisi
+          reprehenderit id praesentium impedit nam incidunt quidem. Itaque
+          dolorem ratione veritatis enim. Fugit officia amet eligendi,
+          cupiditate mollitia nostrum soluta. Similique sunt incidunt molestias
+          voluptate animi repellendus molestiae neque voluptatum autem sequi
+          itaque consequuntur accusantium nulla cupiditate harum magnam, id
+          ullam eos maxime odit maiores dolorem deleniti modi nihil. Eius
+          doloremque maxime vitae velit dolores eos animi eaque nemo magni
+          quidem. Nulla officia fugiat quae.
+        </p>
+        <br />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+          aspernatur quod dolore molestias. Quae illum minus cumque dolorem
+          soluta quaerat! Tenetur ullam nihil, alias, cum similique porro in
+          rerum, consequatur fugiat iusto deserunt accusamus. Numquam esse
+          repudiandae aliquam doloremque quo maiores distinctio, vero hic eaque
+          ipsam soluta culpa ducimus! Ab, asperiores explicabo? Veritatis ad
+          debitis libero laborum odio nihil alias nam, voluptas animi cum,
+          delectus omnis eum incidunt labore suscipit placeat, temporibus quis
+          iusto vel commodi dolorum fugiat tenetur harum! Nemo quas unde commodi
+          quo obcaecati atque laudantium saepe sunt debitis, optio ea ipsum
+          quaerat mollitia quisquam aperiam, temporibus nihil!
+        </p>
+      </main>
+      <aside>
+        <h1>Did you Know?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          accusamus quia quisquam rerum doloribus delectus ea qui magni, dolore
+          molestias.
+        </p>
+        <br />
+        <h1>Quick tip?</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam non,
+          aspernatur cumque cupiditate quia enim.
+        </p>
+      </aside>
+    </div>
+
+    <footer>
+      <h4 style="color: white">
+        ©-2025 Optivoxx. No part of this site may be reproduced without
+        permission.
+      </h4>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Element</title>
+    <style>
+      p::first-line {
+        font-size: 1.2rem;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: blue;
+      }
+      p::first-letter {
+        font-size: 2rem;
+        color: brown;
+        font-family: "Times New Roman", Times, serif;
+      }
+      h2,
+      button::before {
+        content: "👋";
+      }
+      h2,
+      button::after {
+        content: " HTML";
+        color: green;
+      }
+      p::selection {
+        background-color: rgb(139, 145, 150);
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo Element</h1>
+    <br />
+    <h2 style="text-align: center">Hello</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium
+      debitis aliquid natus asperiores quam commodi blanditiis ducimus voluptas,
+      ullam quo doloremque voluptatibus, distinctio perspiciatis optio aut
+      deleniti tenetur magnam autem temporibus? Reprehenderit dolores
+      consequatur animi assumenda, fugiat officiis? In commodi amet deleniti
+      ullam omnis officia beatae voluptatum maxime molestias.
+    </p>
+    <button>Enter</button>
+    <a href="#">rijl </a>
+  </body>
+</html>

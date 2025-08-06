@@ -1,0 +1,49 @@
+Definition:
+HTML (HyperText Markup Language) is the standard markup ;language used to create web 
+pages. It tells the browser how to display content like text, images , video , and links.
+
+
+
+Use Cases:
+Creating web pages and web apps
+Structuring content (heading, paragraphs, tables, etc.)
+Embedding media (images, audio, video)
+Creating interactive forms
+Linking to other pages and sites
+
+
+
+VSCode Dowmload:
+
+Definition:
+VSCode (Visual Studio Code) is a lightweight but powerful code editor 
+developed by Microsoft. It supports syntax highlighting, 
+IntelliSense (smart suggestions), extensions terminal integration, 
+and Git.
+
+Visit: https://code.visualstudio.com
+
+EXTENSIONS:
+1. Live Server
+2. Prettier
+
+HTML BASICS:
+1. <html> → Root element of the document.
+2. <head> → Meta information like title,
+3. <body> → Visible content on the webpage
+4. <h1> to <h6> → Headings (from most important to least)
+5. <p> → paragraphs
+6. <br> → Line Break
+7. <hr> → Horizontal Line
+8. <strong> → Bold text (semantic)
+9. <em>→ Italic text (semantic)
+10. <a> → Anchor (hyperlinks)
+11. <img> → Image tag
+12. <ul>, <ol>, <li> → Lists
+13. <div>, <span> → containers for grouping and styling.
+
+
+Semantic element: Meaningful eg: <article>, <section>, <header>, <footer>, <strong>, <em>
+Non-Semantic element: eg: <div>, <span>
+
+

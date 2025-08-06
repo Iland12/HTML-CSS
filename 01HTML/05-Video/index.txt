@@ -1,0 +1,14 @@
+Definition:
+The <video> tag is used to embed videos directly 
+into an HTMLpage. Like <audio>, it supports playback 
+controls, looping, and autoplay.
+
+
+
+Key Attributes:
+1. src
+2. controls
+3. autoplay
+4. loop
+5. muted
+6. poster : Shows an Image before the video starts (Thumbnail).

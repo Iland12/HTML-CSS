@@ -1,0 +1,18 @@
+Defination:
+CSS (Cascading Style Sheets) is a language used to style and visually 
+format HTMML content - controlling colors, layout, fonts, spacing, 
+borders, animations, and more.
+
+
+WHY USE CSS?
+1. Separates content (HTML) from design (CSS) 
+2. Gives complete control over page apperance
+3. Reusable and scalable across multiple pages
+4. Enable responsive and modern design
+
+
+THREE WAYS TO APPLY CSS:
+|Method|			|Description|							|Example Location|
+Inline		Inside an HTML tag using 'style=""'			'<h1 style="color:red;";
+Internal	Inside '<style>' tag in the '<head>'		'<style> h1 {} </style>'
+External	Linked via separate '.css' file				'<link rel="stylesheet" href="style.css">'

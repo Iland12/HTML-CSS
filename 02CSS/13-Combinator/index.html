@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinator</title>
+    <style>
+      .container p {
+        font-size: 20px;
+        color: cadetblue;
+      }
+      .child > p {
+        font-size: 10px;
+        color: rgb(255, 144, 25);
+      }
+      .child + p {
+        font-size: 30px;
+        color: rgb(31, 66, 68);
+      }
+      .child ~ p {
+        background-color: rgb(89, 180, 180);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam optio
+        expedita delectus veniam laborum laudantium nemo asperiores voluptatibus
+        est sapiente?
+      </p>
+      <div class="child">
+        <p>
+          1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos,
+          consectetur?
+        </p>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+          2Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          ex quasi aut nam illo cupiditate deserunt neque similique, quibusdam
+          ducimus.
+        </p>
+      </div>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas qui
+        nihil beatae quo cupiditate impedit vitae placeat, quisquam ducimus
+        repudiandae exercitationem, pariatur corrupti sed itaque possimus
+        deserunt sit iusto fugit?
+      </p>
+      <p>lorem4</p>
+    </div>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+  </body>
+</html>

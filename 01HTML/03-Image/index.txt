@@ -1,0 +1,11 @@
+Definition:
+The <img> tag is used in HtmL to embed images into 
+a webpage . It is a sdelf-closing tag and does not 
+required a closing </img>.
+
+
+Attributes: 
+1. src : Source of the image (path or URL)
+2. alt : Alternate text (shown if image failed to load)
+3. width : Width of the image (can be in px or %)
+4. height : Height of thre image

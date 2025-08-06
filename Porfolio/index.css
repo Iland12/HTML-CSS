@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  body {
+    background-color: #3d8ab7;
+  }
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #091932; */
+  z-index: 5;
+}
+.header span {
+  color: #7797a9;
+  font-size: 4rem;
+  display: none;
+}
+.logo {
+  font-size: 3rem;
+  color: #7797a9;
+  text-shadow: 1px 3px 5px #172730;
+  transition: transform 0.3s ease-in-out;
+}
+.logo:hover {
+  transform: scale(1.06);
+}
+.navbar {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+}
+.navbar a {
+  font-size: 1.2rem;
+  color: #7797a9;
+  cursor: pointer;
+}
+.navbar a:hover {
+  color: snow;
+  border-bottom: 3px solid snow;
+}
+.navbar li {
+  transition: all 0.2s ease-in-out;
+}
+.navbar li:hover,
+.navbar li:active {
+  scale: 1.07;
+}
+
+.intro-container {
+  height: 400px;
+  position: absolute;
+  top: 30%;
+  left: 4.3%;
+  width: 50vw;
+}
+
+.contact-container {
+  position: relative;
+  top: 30px;
+}
+.contact-container i {
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+.contact button {
+  font-size: 1em;
+  margin: 2rem 0;
+  margin-right: 2rem;
+  border: 3px solid #091932;
+  border-radius: 3rem;
+  width: 7rem;
+  padding: 0.5rem;
+}
+
+.image-container {
+  width: 30rem;
+  height: 30rem;
+  border: 0.16rem solid black;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  bottom: 25rem;
+  left: 100%;
+}
+
+@media (max-width: 576px) {
+  .header {
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .header span {
+    display: flex;
+  }
+  .header span:hover .navbar {
+    display: block;
+  }
+}

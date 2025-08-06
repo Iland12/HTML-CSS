@@ -1,0 +1,28 @@
+Definition:
+Text formatting tags in HTML are used to style or 
+emphasize text - such as making it bold, italic, 
+underlined, or marked .Some tags also convey 
+semantic meaning, which is important for accessibility 
+and SEO (Search Engine Optimization).
+
+
+
+Common Text Formatting Tags:
+Tags				Purpose					Semantic?
+<b>				Bold (visual only)				❌
+<strong>		Important text (bold)			✅
+<i>				Italic (visual only)			❌
+<em>			Emphasized text (italic)		✅
+<u>				Underlined text					❌
+<mark>			Highlight text					✅
+<small>			Smaller text					✅
+<del>			Deleted/Strikethrough text		✅
+<ins>			Inserted/underlined text		✅
+<sub>			Subscript text					✅
+<sup>			Superscript text				✅
+
+
+## Semantic tags tell the browser and screen readers 
+the purpose of the text (eg. <strong>)
+## Non-Semantic tags just change how it 
+looks (eg. <b>)

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        padding: 0;
+        margin: 0;
+        border: none;
+      }
+      body {
+        background-color: black;
+        color: white;
+      }
+      :root {
+        --bg-color: rgba(0, 0, 0, 0.767);
+        --text-color: white;
+        --main-color: #00ffee;
+      }
+
+      .header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0;
+        background-color: rgba(0, 0, 0, 0.961);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 5;
+      }
+      .navbar ul a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+      }
+      .navbar ul a:hover,
+      .navbar ul a:active {
+        color: var(--main-color);
+        cursor: pointer;
+        border-bottom: 3px solid var(--main-color);
+        text-shadow: 0 0 25px var(--main-color);
+      }
+      .navbar li {
+        list-style: none;
+        margin-left: 4rem;
+        transition: 0.1s ease-in;
+      }
+      .navbar li:hover {
+        transform: scale(1.1);
+      }
+      #logo {
+        font-size: 2rem;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s ease;
+      }
+      #logo:hover {
+        transform: scale(1.1);
+      }
+      #logo span {
+        color: var(--main-color);
+        text-shadow: 0 0 25px var(--main-color);
+      }
+      #ic {
+        display: none;
+      }
+      ul {
+        display: flex;
+      }
+
+      .intro {
+        min-height: 30vh;
+        padding: 13rem 12% 13rem;
+        display: flex;
+        justify-content: center;
+      }
+      h1 > span {
+        color: var(--main-color);
+      }
+      .intro-container h3 {
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+      }
+      .intro-container h1 {
+        font-size: 3rem;
+        font-weight: 900;
+      }
+      .home-img {
+        border-radius: 50%;
+        height: 32vh;
+        width: 32vw;
+      }
+      .home-img img {
+        position: relative;
+        bottom: 6.5rem;
+        width: 70vmin;
+        height: 70vmin;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 0 25px var(--main-color);
+        transition: 0.3s ease-in-out;
+        margin-left: 2rem;
+        border: 1px solid brown;
+      }
+      .home-img img:hover {
+        box-shadow: 0 0 50px var(--main-color), 0 0 100px var(--main-color);
+      }
+      .intro-container p {
+        font-size: 1.1rem;
+        font-weight: 600;
+        line-height: 1.5;
+        max-width: 1000px;
+        margin-right: 2rem;
+      }
+      .social-icons {
+        font-size: 1.5rem;
+        color: var(--main-color);
+        display: inline-flex;
+      }
+      .social-icons a {
+        margin-top: 2rem;
+        margin-right: 2rem;
+        color: var(--main-color);
+        border: 2px solid var(--main-color);
+        padding: 0.5rem;
+        border-radius: 50%;
+        width: 1.5rem;
+        text-decoration: none;
+        transition: 0.2s ease-in-out;
+      }
+      .social-icons i {
+        display: flex;
+        justify-content: center;
+      }
+      .social-icons a:hover {
+        transform: scale(1.3) translateY(-5px);
+        background-color: var(--main-color);
+        color: white;
+        box-shadow: 0 0 25px var(--main-color);
+      }
+      .button-container {
+        margin: 2.5rem 0;
+      }
+      .button-container .btn {
+        margin-right: 2rem;
+        padding: 0.7rem 2.5rem;
+        width: rem;
+        border: 2px solid var(--main-color);
+        border-radius: 2rem;
+        color: var(--main-color);
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+      .button-container .btn:first-child {
+        color: black;
+        background-color: var(--main-color);
+        box-shadow: 0 0 13px var(--main-color);
+      }
+      .button-container .btn:hover {
+        box-shadow: 0 0 25px var(--main-color);
+      }
+      .text-animation {
+        font-size: 34px;
+        font-weight: 600;
+        min-width: 280px;
+      }
+      .text-animation span {
+        position: relative;
+      }
+      .text-animation span::before {
+        content: "Web Developer";
+        color: var(--main-color);
+        animation: words 20s infinite;
+      }
+      .text-animation span::after {
+        content: "";
+        background-color: black;
+        position: absolute;
+        width: calc(100% + 8px);
+        height: 100%;
+        border-left: 3px solid var(--main-color);
+        right: -5px;
+        animation: cursor 0.6s infinite, typing 20s steps(15) infinite,
+          blink 0.3s infinite;
+      }
+      @keyframes cursor {
+        to {
+          border-left: 2px solid var(--main-color);
+        }
+      }
+      @keyframes words {
+        0%,
+        20% {
+          content: "Frontend Designer";
+        }
+        21%,
+        40% {
+          content: "Web Designer";
+        }
+        41%,
+        60% {
+          content: "UI / UX Designer";
+        }
+        61%,
+        80% {
+          content: "Web Developer";
+        }
+        81%,
+        100% {
+          content: "Backend Designer";
+        }
+      }
+      @keyframes typing {
+        10%,
+        15%,
+        30%,
+        35%,
+        50%,
+        55%,
+        70%,
+        75%,
+        90%,
+        95% {
+          width: 0;
+        }
+        5%,
+        20%,
+        25%,
+        40%,
+        45%,
+        60%,
+        65%,
+        80%,
+        85% {
+          width: calc(100% + 8px);
+        }
+      }
+      @keyframes blink {
+        0%,
+        50% {
+          color: var(--main-color);
+        }
+        51%,
+        100% {
+          color: transparent;
+        }
+      }
+
+      .education {
+        overflow-x: hidden;
+      }
+      .year1 {
+        font-size: 1.8rem;
+        width: 50rem;
+        margin-top: 5rem;
+        position: relative;
+        bottom: 1.9rem;
+        left: 15vw;
+        text-shadow: 2px 2px 25px var(--main-color);
+      }
+      .year2 {
+        font-size: 1.8rem;
+        position: relative;
+        left: 26.5vw;
+        bottom: 4.3rem;
+        text-shadow: 2px 2px 10px var (--main-color);
+      }
+      .highschool {
+        float: left;
+        position: relative;
+        left: 10vw;
+        bottom: 0.9rem;
+        width: 30rem;
+        border: 3px solid var(--main-color);
+        border-radius: 3rem;
+        box-shadow: 0 0 25px var(--main-color);
+        padding: 1rem;
+        transition: 0.3s ease-in-out;
+      }
+      .highersecondary {
+        float: right;
+        width: 30rem;
+        position: relative;
+        right: 10vw;
+        bottom: 3.4rem;
+        border: 3px solid var(--main-color);
+        border-radius: 3rem;
+        box-shadow: 0 0 25px var(--main-color);
+        padding: 1rem;
+        transition: 0.3s ease-in-out;
+      }
+      .highschool:hover,
+      .highersecondary:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#home" id="logo">Iland <span>Maimom</span></a>
+
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <span class="material-symbols-outlined" id="ic"> menu </span>
+      </nav>
+    </header>
+    <span class="material-icons" style="color: white">home</span>
+    <section class="intro">
+      <div class="intro-container">
+        <h1>Hi, It's <span>Iland</span></h1>
+        <h3 class="text-animation">I'm a <span> </span></h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          expedita quod, adipisci error, incidunt ratione asperiores earum
+          tempora odio placeat repudiandae. Et ea ducimus optio aliquid quaerat
+          dicta tempora at.
+        </p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+
+        <div class="button-container">
+          <a href="#" class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="./Image/img01.png" alt="Image" />
+      </div>
+    </section>
+
+    <section class="education">
+      <h1
+        id="education"
+        style="
+          color: var(--main-color);
+          font-size: 3rem;
+          text-shadow: 0 0 25px var(--main-color);
+          text-align: center;
+        "
+      >
+        Education
+      </h1>
+      <br />
+      <br />
+      <div class="serial">
+        <div class="year1">2023</div>
+        <div
+          class="highschool"
+          style="font-size: 1.3rem; color: var(--main-color)"
+        >
+          <u>High School</u>
+          <div class="sub-highschool" style="font-weight: 500; color: white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+            harum autem iusto adipisci ab officiis sed minus suscipit
+            perferendis, aliquid nisi. Beatae corporis, aliquid sapiente
+            perspiciatis eligendi dolores animi nam.
+          </div>
+        </div>
+        <div class="year2">2025</div>
+        <div
+          class="highersecondary"
+          style="font-size: 1.3rem; color: var(--main-color)"
+        >
+          <u>Higher Secondary</u>
+          <div class="sub-secondary" style="font-weight: 500; color: white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+            non ullam natus nulla quia commodi. Perferendis exercitationem
+            ducimus mollitia officiis odio, recusandae, aut, sequi eaque ad
+            saepe dolor! Dolorum, tempore.
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

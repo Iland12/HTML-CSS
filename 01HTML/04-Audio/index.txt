@@ -1,0 +1,18 @@
+Definition:
+The <audio> tag is used to embed sound content such
+as music, podcasts, or alerts into a webpage. It can 
+include controls to play, pause, or adjust volume.
+
+
+
+Key Atrribute:
+1. src : Path to the audio file.
+2. controls : Add play/pause/volumeUI.
+3. autoplay : Starts playing automatically.
+4. loop : Repeats the audio.
+5. muted : Starts audio muted.
+
+
+
+Supported format: 
+.mp3, .ogg, .wav

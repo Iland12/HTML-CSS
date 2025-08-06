@@ -1,0 +1,10 @@
+Definition:
+A favicon (short for favorite icon) is the small icon that appers 
+in the browser tab, bookmark bar, and browser history next to the 
+site's title.
+
+
+File Types & Sizes:
+Common format        :  .ico, .png, .svg
+Recommended size     :  16x16 or32x32 pixels
+File name often used :  favicon.ico

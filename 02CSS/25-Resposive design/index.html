@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 20px;
+        margin: 100px auto;
+      }
+      .box {
+        flex: 1;
+        background-color: aqua;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+      }
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+        .box {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">RESPONSIVE DESIDN OF CSS</h1>
+    <div class="container">
+      <div class="box">One</div>
+      <div class="box">Two</div>
+      <div class="box">Three</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.name {
+  color: green;
+  background-color: beige;
+  border: 1px solid black;
+}
+
+.hex {
+  color: #d8f633;
+  background-color: #e67b7b;
+  border: 1px solid #2432c9;
+}
+
+.rgb {
+  color: rgb(0, 0, 255);
+  background-color: rgb(05, 155, 100);
+  border: 1px solid rgb(96, 82, 53);
+}
+
+.rgba {
+  color: rgba(57, 57, 245, 0.3);
+  background-color: rgba(64, 255, 109, 0.3);
+  border: 1px solid rgba(140, 196, 36, 0.3);
+}
+
+.hsl {
+  color: hsl(104, 72%, 45%);
+  background-color: hsl(267, 69%, 45%);
+  border: 1px solid hsl(250, 62%, 40%);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination</title>
+    <style>
+      ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+      }
+      ul li {
+        margin: 0 5px;
+      }
+      a {
+        text-decoration: none;
+        font-size: 2rem;
+        color: black;
+        background-color: rgb(209, 205, 200);
+        display: block;
+        border-radius: 5px;
+        padding: 8px 12px;
+        transition: 0.3s;
+      }
+      a:hover {
+        background-color: rgb(25, 110, 38);
+        color: wheat;
+      }
+      ul .active a {
+        background-color: rgb(240, 9, 9);
+        color: rgb(255, 255, 255);
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pagination Work</h1>
+    <ul>
+      <li><a href="#"><<</a></li>
+      <li><a href="#">1</a></li>
+      <li class="active"><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li><a href="#">>></a></li>
+    </ul>
+  </body>
+</html>

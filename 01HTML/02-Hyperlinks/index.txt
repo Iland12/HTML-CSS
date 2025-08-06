@@ -1,0 +1,18 @@
+Definition:
+A hyperlinksis an element used to link one page to another - either within
+the same website or to external sites.
+It is created using the <a> tag (anchor tag)
+
+
+SYNTAX:
+<a hreh="URL">Link Text</a>
+
+
+
+Types:
+
+1. External link: Open another website.
+2. Inter link: Goes to another page in yooiur website.
+3. Link to a section: Scrolls to a section withn that id.
+4. Email link: Open email app
+5. Phone link: Open dailer on Phone

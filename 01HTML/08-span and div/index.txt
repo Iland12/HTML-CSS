@@ -1,0 +1,17 @@
+Definition:
+<div> (division): A block-level container used to group 
+larger sections of HTML (like multiple paragraphs, headings, 
+or images).
+
+<span>: An inline container used to apply styles or scripts to 
+part of the text within a line.
+
+They don't affect the content visually unless styled 
+with CSS - they exist for grouping and structure.
+
+
+|Property|			|'<div>'|			|'<span>'|
+
+Display type		Block				Inline
+Breaks line?		Yes					No
+Use case			Group elements		Style text inline

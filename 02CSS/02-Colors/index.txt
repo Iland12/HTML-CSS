@@ -1,0 +1,21 @@
+DEFINITION:
+CSS allowa you to set and change colors of HTML elements, 
+including text, backgrounds, borders, and more using 
+various color formats.
+
+
+TYPES OF COLOR VALUE IN CSS:
+	|FORMAT|			|EXAMPLE|					  |DESCRIPTION|
+   Name colors		'red', 'blue', 'green'		  Predefined color names
+   Hex Codes		'#ff0000', '#00ff00'		Represent RGB in hexadecimal
+   RGB				'rgb(255, 0, 0)'			 Red-Green-Blue color model
+   RGBA				'rgba(255, 0, 0, 0.5)'		 RGB with alpha (transparency)
+   HSL				'hsl(0, 100%, 50%)'		 Hue-Saturation-Lightness
+   HSLA				'hsla(0, 100%, 50%)'  		  HSL with alpha
+
+
+##CSS Properties That Use Color
+1. color : Text Color
+2. background-color : Background of elements
+3. border-color : Border line color
+4. box-shadow, text-shadow
